@@ -1,8 +1,8 @@
-def tcont(temperature):
+def tcount(temperature):
     if temperature>7:
         return "warm"
     else:
         return "cold"
         
-    print(tcont(7))
+    print(tcount(7))
 
